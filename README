@@ -1,0 +1,43 @@
+KSP Autopilot
+Because i have that much nothing to do, that i watch too much "Mayday/Air Crash Investigations", and also because i am too poor to buy X-plane 11 with all the fancy addons and the Airbus planes; i wanted a plane-dedicated autopilot for KSP.
+
+Progress:
+- Know everything i need to control the plane
+- Need to write control laws
+- Interface is 0% finished, there's nothing to look at
+
+Required mods:
+- kRPC
+- Ferram Aerospace Research
+
+Required Python modules:
+- krpc
+- pygame
+- matplotlib
+- geopy
+- pyttsx
+
+Features:
+- Pygame interface
+- Flight Data Recorder (Black Box)
+- Black Box reader
+
+Main modes:
+- Ground Target Mode
+- Angle Input Mode
+
+Optional Modes:
+- Altitude Maintain Mode
+- Speed Maintain Mode
+- Autothrottle
+- Autolanding Mode
+
+Warnings:
+- Autopilot Disconnect Warning
+- Stall Warning
+- Terrain Warning
+- Altitude Warning
+- Sinkrate Warning
+- Fuel Warning
+- Battery Warning
+- Overspeed Warning
